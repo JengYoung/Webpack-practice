@@ -1,5 +1,6 @@
 const PI = 3.14;
 const getCircleArea = r => r * r * PI;
+const getSquareArea = d => d * d;
 
 // 모듈 객체로 한 번에 묶어서 내보내기
 // module.exports = {
@@ -23,7 +24,8 @@ const getCircleArea = r => r * r * PI;
 //     getCircleArea,
 // }
 
-export default {
+module.exports = {
     PI,
-    getCircleArea
+    getCircleArea,
+    getSquareArea
 }
